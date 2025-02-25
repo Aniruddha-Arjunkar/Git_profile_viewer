@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/userInfoCard.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic" rel="stylesheet" />
+    <link rel="icon" href="./media/icons8-git-64.png">
+    <title>GitHub User Search Application</title>
+</head>
+
+<body id="body-theme" class="light-theme">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="container">
+        <header class="header" id="header">
+            <b class="Heading">GitHub User Search Application</b>
+               <button class="theme-switch" id="theme-switch">DARK</button>
+        </header>
+        <main>
+           <section class="user-input-sec">
+            <img src="./media/icons8-search.gif" alt="" class="search-icon-img">
+            <input type="text" 
+                   class="search-input" 
+                   id="search-input" 
+                   placeholder="Search GitHub Username...">
+            <button class="search-btn" id="search-btn">Search</button>
+           </section>
+
+           <section class="user-info-card" id="user-info-card">
+               <div class="profile-sec" id="profile-sec">
+                <img src="./media/default-profile.png" alt="profile photo" class="user-avatar" id="user-avatar">
+               </div>
+               <div class="user-info-sec" id="user-info-section">
+                  <div class="user-name-sec" id="user-name-sec">
+                    <h2 class="user-name" id="user-name">NAN</h2>
+                    <p class="joined-date-sec" id="joined-date-sec">Joined <span id="join-date">nan</span></p>
+                  </div>
+                  <p class="user-login-name" style="color: blue;">@<span id="user-login-name"></span></p>
+                  <div class="user-bio-sec">
+                    <span id="user-bio">Bio Not Mentioned</span>
+                  </div>
+                  <ul class="user-state" id="user-state">
+                    <li>
+                        <h4 class="user-state-title" id="user-state-title">Repos</h4>
+                        <h2 class="user-state-value" id="user-repos">00</h2>
+                    </li>
+                    <li>
+                        <h4 class="user-state-title" id="user-state-title">Followers</h4>
+                        <h2 class="user-state-value" id="user-followers">00</h2>
+                    </li>
+                    <li>
+                        <h4 class="user-state-title" id="user-state-title">Following</h4>
+                        <h2 class="user-state-value" id="user-following">00</h2>
+                    </li>
+                  </ul>
+               </div>
+            </section>
+        </main>
+    </div>
+    <script src="./index.js">
+    </script>
+</body>
+</html>
