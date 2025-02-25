@@ -8,11 +8,11 @@ List public repositories with links
 Responsive and user-friendly UI
 This project is a great example of working with APIs and dynamic content rendering using JavaScript.
 
-<h1>Aplication View</h1>
+##Aplication View
 ![Git Profile Viewer Screenshot](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Application%20Image.png)
 
-<h1>Light Mode</h1>
+##Light Mode
 ![Light Mode](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Light%20Mode.png)
 
-<h1>Dark Mode</h1>
+##Dark Mode
 ![Dark Mode](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Dark%20Mode.png)
