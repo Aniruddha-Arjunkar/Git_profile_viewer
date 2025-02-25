@@ -9,10 +9,13 @@ Responsive and user-friendly UI
 This project is a great example of working with APIs and dynamic content rendering using JavaScript.
 
 ##Aplication View
+
 ![Git Profile Viewer Screenshot](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Application%20Image.png)
 
 ##Light Mode
+
 ![Light Mode](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Light%20Mode.png)
 
 ##Dark Mode
+
 ![Dark Mode](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Dark%20Mode.png)
