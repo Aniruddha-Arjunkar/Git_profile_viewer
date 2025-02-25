@@ -8,4 +8,4 @@ List public repositories with links
 Responsive and user-friendly UI
 This project is a great example of working with APIs and dynamic content rendering using JavaScript.
 
-![Git Profile Viewer Screenshot](Application Image.png)
+![Git Profile Viewer Screenshot](https://raw.githubusercontent.com/Aniruddha-Arjunkar/Git_profile_viewer/1b3ba7ee542386b96649b67c32efe35ed02371b5/Application%20Image.png)
