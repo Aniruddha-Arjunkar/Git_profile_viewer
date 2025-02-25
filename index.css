@@ -1,0 +1,91 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-block: 10%;
+}
+.container{
+    width: 50%;   
+    padding: 10px;
+}
+
+.light-theme{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.dark-theme{
+    background-color: #141d2f;
+    color: white;
+    transition: 50ms;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Space Mono';
+    font-size: xx-large; 
+}
+
+.Heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.theme-switch{
+    width: 13vh;
+    height: 6vh;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Space Mono';
+    padding: 5px 10px;
+    border-radius: 7vh;
+}
+
+.theme-switch:hover{
+    cursor: pointer;
+}
+
+.user-input-sec{
+    border: 1px solid black;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 6vh;
+}
+
+.search-icon-img{
+   border-radius: 30%; 
+}
+
+.search-input{
+    width: 75%;
+    padding: 5px;
+    font-family: 'Space Mono';
+    font-size: medium;
+    border: none;
+    border-radius: 2vh;
+}
+
+.search-btn{
+    width: 15vh;
+    padding:10px;
+    font-family: 'Space Mono';
+    font-size: large;
+    background-color: rgb(245, 239, 239);
+    font-weight: bold;
+    border-radius: 2vh;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    transition: 50ms;
+}
+
